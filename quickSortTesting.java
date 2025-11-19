@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class QuickSortTesting{
+public class quickSortTesting{
 
     public static void printIntArray(int[] array){
         System.out.println("\n--- Contenido del arreglo ---");
@@ -12,14 +12,14 @@ public class QuickSortTesting{
     }
 
     public static void main(String[] args) throws IOException{
-        QuickSortFiles qsFiles = new QuickSortFiles();
+        quickSortFiles qsFiles = new quickSortFiles();
         BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
         String fileName;
         String fileNameOut;
         int[] numeros;
 
         System.out.println("---------------------------------------");
-        System.out.println("   PROGRAMA QUICKSORT - ORDENAR NUMEROS   ");
+        System.out.println("QuickSort - Ordenar numeros");
         
         
         // Leer  el archivo de entrada (txt)

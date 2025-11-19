@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 
-public class QuickSortFiles{
+public class quickSortFiles{
 
     int countFileLines(String fileName){
         File file;
